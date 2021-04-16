@@ -204,6 +204,10 @@
     <Compile Include="Migrations\202104161942436_Populate2Books.designer.cs">
       <DependentUpon>202104161942436_Populate2Books.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104161954059_PopulateClients.cs" />
+    <Compile Include="Migrations\202104161954059_PopulateClients.designer.cs">
+      <DependentUpon>202104161954059_PopulateClients.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book.cs" />
@@ -408,6 +412,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104161942436_Populate2Books.resx">
       <DependentUpon>202104161942436_Populate2Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104161954059_PopulateClients.resx">
+      <DependentUpon>202104161954059_PopulateClients.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
