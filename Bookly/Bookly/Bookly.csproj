@@ -188,6 +188,10 @@
     <Compile Include="Migrations\202104161438166_AddBookModel.designer.cs">
       <DependentUpon>202104161438166_AddBookModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104161441489_AddClientModel.cs" />
+    <Compile Include="Migrations\202104161441489_AddClientModel.designer.cs">
+      <DependentUpon>202104161441489_AddClientModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book.cs" />
@@ -379,6 +383,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104161438166_AddBookModel.resx">
       <DependentUpon>202104161438166_AddBookModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104161441489_AddClientModel.resx">
+      <DependentUpon>202104161441489_AddClientModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
