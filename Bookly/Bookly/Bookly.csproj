@@ -208,6 +208,10 @@
     <Compile Include="Migrations\202104161954059_PopulateClients.designer.cs">
       <DependentUpon>202104161954059_PopulateClients.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104162016542_DataAnnotateToBook.cs" />
+    <Compile Include="Migrations\202104162016542_DataAnnotateToBook.designer.cs">
+      <DependentUpon>202104162016542_DataAnnotateToBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book.cs" />
@@ -415,6 +419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104161954059_PopulateClients.resx">
       <DependentUpon>202104161954059_PopulateClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104162016542_DataAnnotateToBook.resx">
+      <DependentUpon>202104162016542_DataAnnotateToBook.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
