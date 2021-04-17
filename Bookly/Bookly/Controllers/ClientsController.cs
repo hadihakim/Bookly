@@ -26,6 +26,13 @@ namespace Bookly.Controllers
             return View(clients);
         }
 
+        public ActionResult Details(int id)
+        {
+            var client = db.Clients.SingleOrDefault(c => c.ID == id);
+            if (client == null)
+                return HttpNotFound();
+            return View(client);
+        }
 
         // GET: Clients
         public ActionResult Random()
